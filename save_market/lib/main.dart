@@ -96,7 +96,7 @@ for LOOP
   @override
   Widget build(BuildContext context) {
     printNumbers();
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(),
     );
